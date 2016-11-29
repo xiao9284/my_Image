@@ -1,0 +1,18 @@
+{
+  "development": {
+    "username": "ysh_www",
+    "password": "369***///",
+    "host": "112.74.72.127",
+    "port":3306,
+    "allowMultiQueries":"true"
+  },
+  "wx_config":{
+    "AppId":"wx0f13b79186635981",
+    "AppSecret":"AppSecret",
+    "token":"021wTpoRGnaWpbieMM8Xg8H6ydacEvK",
+    "tipsmax":450,
+    "tipnum":0,
+    "access_token":"",
+    "timestamp":"0"
+  }
+}

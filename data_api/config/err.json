@@ -1,0 +1,93 @@
+{
+  "success": {
+    "status": 0,
+    "state": 0,
+    "msg": "The resquest success",
+    "aaData": []
+  },
+  "successAuthorityMsg": {
+    "status": 0,
+    "msg": "Check The Authority Success"
+  },
+  "DBConfigErr": {
+    "status": -10001,
+    "msg": "Attempt to configure the database failed, Check the database configuration file"
+  },
+  "DBConnectionErr": {
+    "status": -10002,
+    "msg": "Can not get to the database connection, Check the configuration file parameters"
+  },
+  "DBGetConnectionFail": {
+    "status": -10003,
+    "msg": "Try To Get Connection Fail"
+  },
+  "SQLExecuteFail": {
+    "status": -10004,
+    "sql": "",
+    "msg": "Executing SQL Error"
+  },
+  "SQLErr": {
+    "status": -10003,
+    "msg": "sql wrong"
+  },
+  "wx_configErr": {
+    "status": -10004,
+    "msg": "WeiXin config Err,Check the WeiXin config"
+  },
+  "GetSesskeyFail": {
+    "status": -20001,
+    "msg": "Can not get the sesskey"
+  },
+  "InvalidSesskey": {
+    "status": -20002,
+    "msg": "Invalid the sesskey"
+  },
+  "noAuthorityMsg": {
+    "status": -20003,
+    "msg": "No authority to request"
+  },
+  "errorAuthorityMsg": {
+    "status": -20004,
+    "msg": "Error authority"
+  },
+  "cmdWrong": {
+    "status": -30001,
+    "errCmd": {},
+    "msg": "can not find the Cmd"
+  },
+  "cmdCheckError": {
+    "status": -30002,
+    "errCmd": {},
+    "msg": "Executing cmd Check Error"
+  },
+  "IllegalType": {
+    "status": -40001,
+    "errCmd": {},
+    "msg": "The param type can not be parsed"
+  },
+  "loginSuccess": {
+    "status": 0,
+    "state": "1",
+    "msg": "Login success"
+  },
+  "loginErr": {
+    "status": 30001,
+    "state": "0",
+    "msg": "login fail"
+  },
+  "server_Wrong": {
+    "status": 80001,
+    "state": "-1",
+    "msg": "Server Wrong"
+  },
+  "unknownError": {
+    "status": 80002,
+    "state": 998,
+    "msg": "Interface Wrong"
+  },
+  "unknownError": {
+    "status": 90007,
+    "state": "-1",
+    "msg": "unknownError"
+  }
+}
